@@ -1,0 +1,5 @@
+/* !important - highest priority */
+h2 {
+    color: green !important;
+    font-size: 30px;
+}
