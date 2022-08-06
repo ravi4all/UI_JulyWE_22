@@ -1,0 +1,31 @@
+body {
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=960");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+div {
+    background-color: black;
+    height: 750px;
+    background-size: 100% 100%;
+    margin-bottom: 400px;
+    background-attachment: fixed;
+}
+
+#div_1 {
+    background-image: url("https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/families-gallery/2022/04_12/family_chooser_tecnica_m.png");
+}
+#div_2 {
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2018-rolls-royce-phantom-1536152159.png");
+}
+
+#div_3 {
+    background-image: url("https://i.ytimg.com/vi/SbXIj2T-_uk/maxresdefault.jpg");
+}
+#div_4 {
+    background-image: url("https://img.mensxp.com/media/content/2017/Oct/most-expensive-fast-cars-ferraris-and-aston-martins1400-1507530493.jpg");
+}
+#div_5 {
+    background-image: url("https://s3images.zee5.com/wp-content/uploads/2021/09/fastest-cars-world-2021-luxe-digital@2x.jpeg");
+}
