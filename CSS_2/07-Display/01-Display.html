@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .col {
+            background-color: lightblue;
+            display: inline-block;
+            width: 31%;
+            padding: 10px;
+        }
+        /* h1 {
+            display: inline;
+        } */
+        
+        /* a {
+            display: block;
+        } */
+        ul {
+            margin: 0px 0px 40px;
+            padding: 0px;
+        }
+        ul li {
+            display: inline-block;
+            background-color: red;
+            text-align: center;
+            /* color: red; */
+            width: 16%;
+        }
+        ul li a {
+            color: #fff;
+            display: block;
+            padding: 10px 0px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Display Property</h1>
+
+        <div id="main-nav">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Sports</a>
+                </li>
+                <li>
+                    <a href="#">Furniture</a>
+                </li>
+                <li>
+                    <a href="#">Electronics</a>
+                </li>
+                <li>
+                    <a href="#">Books</a>
+                </li>
+                <li>
+                    <a href="#">More</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- <a href="#">This is a link</a>
+        <a href="#">This is a link</a>
+        <a href="#">This is a link</a>
+        <a href="#">This is a link</a>
+        <a href="#">This is a link</a> -->
+
+        <div class="row">
+            <div class="col-1 col">
+                <h2>This is column_1</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est similique commodi velit provident quaerat repellat, molestias eligendi et possimus necessitatibus. Sint ducimus nulla ipsum sequi saepe natus soluta placeat odio!
+                </p>
+            </div>
+
+            <div class="col-2 col">
+                <h2>This is column_2</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est similique commodi velit provident quaerat repellat, molestias eligendi et possimus necessitatibus. Sint ducimus nulla ipsum sequi saepe natus soluta placeat odio!
+                </p>
+            </div>
+
+            <div class="col-3 col">
+                <h2>This is column_3</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est similique commodi velit provident quaerat repellat, molestias eligendi et possimus necessitatibus. Sint ducimus nulla ipsum sequi saepe natus soluta placeat odio!
+                </p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
