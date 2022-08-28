@@ -1,0 +1,72 @@
+/* Global Settings */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 15px;
+}
+
+/* Helper Classes */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Generic Settings */
+#header {
+
+}
+
+#main-navigation {
+
+}
+
+#content {
+
+}
+
+#sidebar {
+
+}
+
+#main {
+    
+}
+
+#footer {
+
+}

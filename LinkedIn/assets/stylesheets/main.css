@@ -1,0 +1,128 @@
+/* Global Settings */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 15px;
+}
+
+/* Helper Classes */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Generic Settings */
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#header {
+
+}
+
+#header .logo {
+    font-size: 36px;
+    margin-right: 10px;
+    display: block;
+}
+
+#header form {
+    position: relative;
+}
+#header form input[type="text"] {
+    height: 28px;
+    margin-top: 5px;
+}
+#header form button {
+    position: absolute;
+    left: 5px;
+    top: 13px;
+    background-color: transparent;
+    border: none;
+}
+
+#header .header-left {
+    width: 28%;
+    padding-top: 7px;
+}
+#header .header-right {
+    width: 55%;
+}
+
+#header .logo-area {
+    width: 10%;
+}
+#header .search-area {
+    width: 80%;
+    margin-left: 2%;
+}
+
+#main-navigation {
+
+}
+#main-navigation ul li {
+    display: inline-block;
+    text-align: center;
+}
+#main-navigation ul li a {
+    padding: 10px 12px;
+    display: block;
+    color: rgba(0,0,0,0.6);
+    font-size: 13px;
+}
+#main-navigation ul li a .nav-icon {
+    display: block;
+    font-size: 20px;
+}
+
+#content {
+
+}
+
+#sidebar {
+
+}
+
+#main {
+    
+}
+
+#footer {
+
+}
