@@ -158,13 +158,57 @@ h1,h2,h3,h4,h5,h6 {
 }
 #sidebar_1 .impressions {
     padding: 8px 0px;
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+}
+#sidebar_1 .impressions a {
+    color: rgba(0,0,0,0.6);
+    padding: 5px 10px;
+    font-size: 12px;
+    display: block;
+}
+#sidebar_1 .impressions a:hover {
+    background-color: #EBEBEB;
+}
+#sidebar_1 .premium {
+    border-bottom: 1px solid #EBEBEB;
+}
+#sidebar_1 .premium a,
+#sidebar_1 .my-items a {
+    font-size: 13px;
+    padding: 10px;
+    display: block;
+    color: rgba(0,0,0,0.6);
+}
+#sidebar_1 .premium a:hover,
+#sidebar_1 .my-items a:hover {
+    background-color: #EBEBEB;
 }
 
+#sidebar_1 .pages {
+    padding: 10px;
+}
 #sidebar_1 .pages .page-pic {
     width: 20%;
 }
 #sidebar_1 .pages .page-name {
     width: 70%;
+}
+#sidebar_1 .pages ul li {
+    padding: 10px 0px;
+    font-size: 13px;
+}
+#sidebar_1 .pages ul li .page-name a{
+    color: #000;
+    margin-bottom: 12px;
+    display: block;
+}
+#sidebar_1 .pages ul li .page-text,
+#sidebar_1 .pages ul li .page-notification {
+    color: rgba(0,0,0,0.6);
+}
+#sidebar_1 .pages ul li a:hover {
+    text-decoration: underline;
 }
 
 #main {
@@ -173,20 +217,20 @@ h1,h2,h3,h4,h5,h6 {
     margin-left: 2%;
 }
 
-#main .post {
+#main .share-post {
     padding: 10px;
 }
-#main .post .pic {
+#main .share-post .pic {
     width: 10%;
 }
-#main .post img {
+#main .share-post img {
     width: 100%;
 }
-#main .post .upload-box {
+#main .share-post .upload-box {
     width: 75%;
     margin-left: 4%;
 }
-#main .post .upload-box span {
+#main .share-post .upload-box span {
     background-color: lightgray;
     width: 100%;
     display: block;
@@ -194,7 +238,7 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: 50px;
 }
 
-#main .post ul li {
+#main .share-post ul li {
     display: inline-block;
     width: 23%;
     text-align: center;
@@ -202,7 +246,34 @@ h1,h2,h3,h4,h5,h6 {
 
 #sidebar_2 {
     width: 28%;
+    margin-left: 2%;
     background-color: #fff;
+}
+#sidebar_2 .wrapper {
+    padding: 6px 15px;
+}
+#sidebar_2 .wrapper h4 {
+    margin-bottom: 0px;
+}
+#sidebar_2 .news-list {
+    height: 300px;
+    overflow-y: scroll;
+}
+#sidebar_2 .news-list a {
+    display: block;
+    padding: 15px;
+}
+#sidebar_2 .news-list a {
+    color: #000;
+}
+#sidebar_2 .news-list a .news-text {
+    font-weight: 600;
+}
+#sidebar_2 .news-list a span {
+    color: rgba(0,0,0,0.6);
+}
+#sidebar_2 .news-list li:hover {
+    background-color: #EBEBEB;
 }
 
 #footer {
