@@ -58,6 +58,10 @@ h1,h2,h3,h4,h5,h6 {
 
 #header {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
 }
 
 #header .logo {
@@ -116,7 +120,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #content {
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 #sidebar_1 {
@@ -137,6 +141,11 @@ h1,h2,h3,h4,h5,h6 {
 #sidebar_1 .profile-pic-img {
     margin-top: -35px;
     width: 30%;
+}
+.pages-2 {
+    position: sticky;
+    top: 80px;
+    z-index: 0;
 }
 .profile-pic-img {
     border: 2px solid #fff;
@@ -213,12 +222,14 @@ h1,h2,h3,h4,h5,h6 {
 
 #main {
     width: 48%;
-    background-color: #fff;
+    /* background-color: #fff; */
     margin-left: 2%;
 }
 
 #main .share-post {
     padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
 }
 #main .share-post .pic {
     width: 10%;
@@ -274,6 +285,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 #sidebar_2 .news-list li:hover {
     background-color: #EBEBEB;
+}
+
+.post {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
 }
 
 #footer {
