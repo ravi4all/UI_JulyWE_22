@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Form Elements</h1>
+
+    <form action="#">
+        <table>
+            <tr>
+                <td>Enter Name</td>
+                <td>
+                    <input type="text" placeholder="Enter Name" value="Ram" readonly disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Email</td>
+                <td>
+                    <input type="email" autofocus autocomplete="off" placeholder="Enter Email" required value="ram@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Password</td>
+                <td>
+                    <input type="password" placeholder="Enter Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Age
+                </td>
+                <td>
+                    <input type="number" min="18" max="50" placeholder="Enter Age">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter DOB</td>
+                <td>
+                    <input type="date">
+                </td>
+                <td>
+                    <input type="time">
+                </td>
+                <td>
+                    <input type="datetime-local">
+                </td>
+                <td>
+                    <input type="month">
+                </td>
+                <td>
+                    <input type="week">
+                </td>
+            </tr>
+            <tr>
+                <td>Select Range</td>
+                <td>
+                    <input type="range" min="0" max="5000" value="500" onchange="op.value=value" step="500">
+                </td>
+                <td>
+                    <output id="op"></output>
+                </td>
+            </tr>
+            <tr>
+                <td>Progress</td>
+                <td>
+                    <progress max="100" value="25"></progress>
+                </td>
+            </tr>
+            <tr>
+                <td>Search Here</td>
+                <td>
+                    <input type="search">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Phone</td>
+                <td>
+                    <input type="tel" placeholder="Enter Mobile No">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Card Number</td>
+                <td>
+                    <input type="text" placeholder="Enter Card Number" pattern="[0-9]{4}[a-z]{2,5}[@|#|$|%|^|&]{1}[0-9]{3}">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
