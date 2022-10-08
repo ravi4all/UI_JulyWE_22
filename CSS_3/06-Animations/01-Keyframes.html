@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 2px solid red;
+        }
+        img {
+            /* animation-name: anim_1;
+            animation-duration: 10s;
+            animation-iteration-count: infinite; */
+            /* animation-direction: alternate; */
+            /* animation-timing-function: ease-in; */
+            /* animation-timing-function: ease-in-out; */
+            /* animation-timing-function: linear; */
+            /* animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+            /* animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); */
+            /* animation-fill-mode: forwards; */
+            animation: anim_1 10s infinite linear;
+        }
+        div:hover img{
+            animation-play-state: paused;
+        }
+        @keyframes anim_1 {
+            /* from {
+                transform: translateX(0px);
+            }
+            to {
+                transform: translateX(1000px);
+            } */
+            0% {
+                transform: translateX(0px) rotateY(0deg);
+            }
+            45% {
+                transform: translateX(1000px) rotateY(0deg);
+            }
+            50% {
+                transform: translateX(1000px) rotateY(180deg);
+            }
+            100% {
+                transform: translateX(0px) rotateY(180deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Animation with Keyframes</h1>
+
+    <div>
+        <img src="../../images/hulk5-18463.gif" alt="">
+    </div>
+    
+</body>
+</html>
