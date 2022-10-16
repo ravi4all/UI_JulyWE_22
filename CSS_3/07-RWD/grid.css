@@ -1,0 +1,74 @@
+#header {
+    margin-bottom: 30px;
+}
+
+.header-row {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 15% 60% 10%;
+    grid-template-areas: "logo main-nav login"
+                         "logo search login";
+}
+
+.logo {
+    grid-area: logo;
+    border: 1px solid;
+}
+
+#main-nav {
+    grid-area: main-nav;
+    border: 1px solid red;
+}
+#main-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    grid-area: search;
+    border: 1px solid green;
+}
+
+.login {
+    grid-area: login;
+    border: 1px solid;
+}
+
+
+.row {
+    padding: 0px 40px;
+    display: grid;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    gap: 20px;
+    /* row-gap: 20px;
+    column-gap: 20px; */
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    /* grid-template-columns: 22% 45% 22%; */
+    grid-template-columns: repeat(25%,4);
+    /* grid-template-columns: repeat(1fr, 2); */
+}
+
+.col {
+    border: 2px solid red;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.col-1 {
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: 1/4;
+}
+
+.col-3 {
+    /* grid-row-start: 2;
+    grid-row-end: 4; */
+    grid-row: 2/4;
+}
+
+.col-7 {
+    /* grid-column-start: 2;
+    grid-column-end: 5; */
+    grid-column: 2/5;
+}
