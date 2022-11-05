@@ -45,6 +45,32 @@ h1,h2,h3,h4,h5,h6 {
     text-align: center;
 }
 
+.row {
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
 
 /* Generic Settings */
 #header {
