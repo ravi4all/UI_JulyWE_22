@@ -1,0 +1,34 @@
+Javascript
+
+What is Javascript ?
+- Client Side / Server Side Dynamic Scripting Language
+
+Netscape -> Brendon Eich (Self + Scheme)
+- written JS in 10 days only
+
+Mocha
+Livescript
+Javascript
+
+ECMAScript - European Computer Manufacturer Association
+
+Mozilla / Brave Browser
+
+
+Features of JS
+- Event-driven language
+  - Event - key press, click, mouse move...
+    - whenever some event is triggered than we execute JS
+- Interpreted Language
+  JVM - Javascript Virtual Machine
+  V8 - Chrome, Opera and Edge
+  SpiderMonkey - Firefox
+- Dynamically Typed Language
+- Loosely Typed Language  
+- First Class Functions
+- High Level Language
+
+
+
+
+
