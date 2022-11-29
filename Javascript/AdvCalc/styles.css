@@ -1,0 +1,21 @@
+table {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#resultBox {
+    text-align: right;
+    width: 99%;
+    height: 60px;
+    font-size: 2em;
+}
+
+.btn {
+    width: 200px;
+    height: 80px;
+    font-size: 2em;
+}
+
+.res {
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>OnKey Press/Down/Up</h1>
+
+    <!-- <input type="text" onkeydown="validate(this)"> -->
+    <input type="text" onkeyup="validate(this)">
+    <h2>Pressed : <span id="msg"></span></h2>
+
+    <script>
+        function validate(obj) {
+            // alert("Event Triggered...");
+            document.querySelector("#msg").innerHTML = obj.value;
+        }
+    </script>
+    
+</body>
+</html>
