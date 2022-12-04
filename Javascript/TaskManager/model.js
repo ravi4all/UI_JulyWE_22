@@ -27,8 +27,15 @@ var operations = {
     },
 
     deleteTask : function() {
+        this.taskList = this.taskList.filter(function(obj) {
+            return obj.selected == false;
+        });
+    },
+
+    sortTask : function(key) {
 
     },
+
     updateTask : function() {
 
     },

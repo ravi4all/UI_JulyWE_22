@@ -8,7 +8,11 @@ let taskId = 0;
 function initEvents() {
     table = document.querySelector("#table");
     document.querySelector("#addTask").addEventListener("click", addTask);
+    document.querySelector("#deleteTask").addEventListener("click", deleteTask);
+    document.querySelector("#saveTask").addEventListener("click", saveTask);
+    document.querySelector("#loadTask").addEventListener("click", loadTask);
     generateHeader();
+    loadTask();
 }
 
 function generateHeader() {
@@ -82,4 +86,33 @@ function showTask() {
 function selectTask() {
     // console.log(this.value);
     operations.toggleTask(this.value);
+}
+
+function deleteTask() {
+    operations.deleteTask();
+    showTask();
+}
+
+function saveTask() {
+    if(window.localStorage) {
+        // JSON.stringify = convert array of object into string
+        var data = JSON.stringify(operations.taskList);
+        localStorage.setItem("taskList", data);
+    }
+    else {
+        alert("Cannot Save, Because browser do not support localstorage");
+    }
+}
+
+function loadTask() {
+    if(window.localStorage) {
+        if(localStorage.taskList) {
+            // JSON.parse = convert string into array of object
+            operations.taskList = JSON.parse(localStorage.getItem("taskList"));
+            showTask();
+        }
+        else {
+            alert("Data not found...");
+        }
+    }
 }
