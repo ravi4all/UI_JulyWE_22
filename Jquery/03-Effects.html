@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Jquery Effects...</h1>
+
+    <!-- Hide/Show Effect
+    Fade Effect
+    Slide Effect -->
+
+        <div>
+            <img src="../images/dhoni.jpg" alt="">
+        </div>
+
+    <button id="show">Show</button>
+    <button id="hide">Hide</button>
+    <button id="toggle">Toggle</button>
+    
+    <script src="jquery-3.6.1.min.js"></script>
+    <script>
+        // $("#hide").click(function() {
+        //     $("img").hide(1000);
+        // });
+        // $("#show").click(function() {
+        //     $("img").show(1000);
+        // });
+        // $("#toggle").click(function() {
+        //     $("img").toggle(1000);
+        // })
+
+        // $("#hide").click(function() {
+        //     $("img").fadeOut(1000);
+        // });
+        // $("#show").click(function() {
+        //     $("img").fadeIn(1000);
+        // });
+        // $("#toggle").click(function() {
+        //     $("img").fadeToggle(1000);
+        // })
+
+        $("#hide").click(function() {
+            $("div").slideUp(1000);
+        });
+        $("#show").click(function() {
+            $("div").slideDown(1000);
+        });
+        $("#toggle").click(function() {
+            $("div").slideToggle(1000);
+        });
+    </script>
+</body>
+</html>
