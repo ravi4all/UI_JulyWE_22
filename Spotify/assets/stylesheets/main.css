@@ -1,0 +1,146 @@
+/* Global Settings */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+}
+
+#header {
+    background-color: #000000;
+    position: fixed;
+    width: 15%;
+    height: 100%;
+}
+#header a {
+    color: #b3b3b3;
+    display: block;
+}
+
+#header .logo a{
+    padding: 15px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+#header .logo a i {
+    font-size: 38px;
+    vertical-align: middle;
+}
+
+#main-navigation ul li a {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px;
+}
+#main-navigation ul li a span {
+    margin-left: 7px;
+}
+
+#playlist {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #b3b3b3;
+    color: #fff;
+}
+#playlist h3 {
+    text-align: center;
+}
+
+#footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: #181818;
+    padding: 15px;
+}
+#footer .row {
+    justify-content: space-between;
+}
+#footer .thumbnail {
+    margin-right: 15px;
+}
+#footer a,
+#footer i {
+    color: #fff;
+}
+
+#footer .player {
+    flex-grow: 0.7;
+}
+#footer .player audio {
+    width: 100%;
+}
+
+#content {
+    margin-left: 15%;
+}
+
+#section-1 {
+    padding: 20px;
+    background-color: #291407;
+}
+#section-1 h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+#section-1 .grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 20px;
+}
+#section-1 img {
+    width: 100%;
+}
+#section-1 .row {
+    align-items: center;
+}
+#section-1 .col {
+    background-color: #494745;
+}
+#section-1 .col .img {
+    width: 20%;
+    margin-right: 15px;
+}
+#section-1 .col a {
+    color: #fff;
+}
+
+.section {
+    padding: 15px;
+}
+.section h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.section .row {
+    justify-content: space-between;
+}
+
+.box {
+    background-color: #181818;
+    width: 15%;
+    padding: 15px;
+}
+.box img {
+    width: 100%;
+}
+.box a {
+    color: #fff;
+}
